@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 120px 30px 1000px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    z-index: 11;
+}

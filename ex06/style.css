@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.card {
+    width: 250px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #cccccc;
+
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.05);
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease,
+                background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkblue;
+    transform: translateY(-8px) scale(1.05);
+}
